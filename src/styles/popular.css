@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+}
+
+.background-container-popular {
+    width: calc(100% - 250px);
+    height: 100vh;
+    margin-left: 250px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-popular {
+    font-family: "K2D", serif;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+.line-popular {
+    width: 50%;
+    height: 1px;
+    background-color: rgb(255, 104, 104);
+    margin-bottom: 20px;
+}
+
+.slide-container-popular {
+    width: 100%;
+    height: 465px;
+}
+
+
+html, body {
+    overflow-x: hidden;
+}
+
+#choice {
+    margin: 0 auto;
+    padding: 10px 8%;
+
+}
+
+.section-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.choice-container {
+    display: flex;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.slide-container {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 2700px;
+    gap: 100px;
+    margin-left: 135px;
+}
+
+.content-container {
+    width: 700px;
+    height: 440px;
+    text-align: center;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.3s;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+.content-container:hover {
+    scale: 1.02;
+}
+
+.arrow {
+    cursor: pointer;
+    font-size: 30px;
+    z-index: 10;
+}
+
+.button-container-popular {
+    width: 200px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.circle-popular {
+    width: 60px;
+    height: 60px;
+    border: 3px solid black;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.lleft {
+    margin-right: 4px;
+    width: 52px;
+    height: 52px;
+    margin-top: 7px;
+}
+
+.rright {
+    margin-left: 4px;
+    width: 52px;
+    height: 52px;
+    margin-top: 7px;
+}
+
+.backimg {
+    width: 100%;
+}

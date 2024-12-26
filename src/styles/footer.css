@@ -1,0 +1,13 @@
+.background-footer {
+    width: calc(100% - 250px);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 250px;
+}
+
+.write-footer {
+    font-family: "K2D", serif;
+    font-size: 30px;
+}

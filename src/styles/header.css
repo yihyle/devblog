@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+}
+
+.underimg {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    transition: 0.5s;
+}
+
+.box-container-header:hover .underimg {
+    width: 0;
+    height: 0;
+}
+
+.header-container-header {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    align-items: center;
+    z-index: 99999;
+}
+
+.box-container-header {
+    width: 100%;
+    height: 30px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.box-container-header:hover {
+    height: 100px;
+}
+
+.login-box-header {
+    width: 70%fm;
+    height: 0%;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    transition: 0.3s;
+}
+
+.box-container-header:hover  .login-box-header {
+    width: 70%;
+    gap: 50px;
+    height: 55%;
+}
+
+.login-header {
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-header:hover {
+    scale: 1.2;
+}
+
+.signup-header {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.signup-header:hover {
+    scale: 1.2;
+}
+
+.logo-container-header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-header {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    z-index: -1;
+}
+
+.line-header {
+    width: 100%;
+    height: 1.5px;
+    background-color: #808080;
+}
+
+.menu-container-header {
+    width: 100%;
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+}
+
+.menu-box-header {
+    width: 88%;
+    height: 65px;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.menu-box-header:hover {
+    box-shadow: 0px 0px 7px rgb(126, 126, 126);
+}
+
+.circle-header {
+    width: 40px;
+    height: 40px;
+    border-radius: 60px;
+    background-color: #f1f1f1;
+    margin: 0 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.circle-header img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.circle-header .writeimg {
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+}
+
+.circle-header .callimg {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.title-header {
+    width: 110px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.title-header p {
+    font-family: "K2D", serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.right-header {
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menu-box-header:hover .right-header {
+    transform: translateX(6px);
+}
